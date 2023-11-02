@@ -1,3 +1,3 @@
-const logger = require("pino")
+import pino from "pino";
 
-logger().info("Hello, World!");
+pino().info("Hello, World!");
