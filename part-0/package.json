@@ -11,5 +11,8 @@
   ],
   "author": "achilles schmelzer <a@achilles.engineering>",
   "license": "MIT",
-  "homepage": "https://github.com/killthebuddh4/js-the-real-parts"
+  "homepage": "https://github.com/killthebuddh4/js-the-real-parts",
+  "dependencies": {
+    "pino": "^8.16.1"
+  }
 }
