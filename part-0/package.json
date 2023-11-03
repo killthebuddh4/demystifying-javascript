@@ -1,0 +1,15 @@
+{
+  "name": "@js-the-real-parts/part-0",
+  "description": "Part 0: zero-config to a legitimate project.",
+  "keywords": [
+    "nodejs",
+    "eslint",
+    "prettier",
+    "typescript",
+    "mocha",
+    "npm"
+  ],
+  "author": "achilles schmelzer <a@achilles.engineering>",
+  "license": "MIT",
+  "homepage": "https://github.com/killthebuddh4/js-the-real-parts"
+}
