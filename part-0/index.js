@@ -1,1 +1,3 @@
-console.log("Hello, World!");
+const logger = require("pino")
+
+logger().info("Hello, World!");
