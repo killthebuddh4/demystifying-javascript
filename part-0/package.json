@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "@js-the-real-parts/part-0",
   "description": "Part 0: zero-config to a legitimate project.",
   "keywords": [
