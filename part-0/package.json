@@ -18,5 +18,8 @@
   },
   "dependencies": {
     "pino": "^8.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
