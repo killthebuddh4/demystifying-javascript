@@ -2,7 +2,7 @@ import Lib from "./lib.js";
 
 describe("Our script works", () => {
   it("Really well, actually.", () => {
-    const STATE: { dataToLog: string, loggedData: string[] } = {
+    const STATE: { dataToLog: string; loggedData: string[] } = {
       dataToLog: "This is a test!",
       loggedData: [],
     };
