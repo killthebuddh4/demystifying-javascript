@@ -4,12 +4,14 @@
     "dev": "nodemon index.js",
     "test": "mocha index.test.js",
     "lint": "eslint .",
-    "format": "prettier --check ."
+    "format": "prettier --check .",
+    "types": "tsc --noEmit"
   },
   "dependencies": {
     "eslint": "^8.53.0",
     "mocha": "^10.2.0",
     "nodemon": "^3.0.1",
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
   }
 }
