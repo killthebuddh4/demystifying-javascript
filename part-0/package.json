@@ -8,6 +8,7 @@
     "types": "tsc --noEmit"
   },
   "dependencies": {
+    "@types/mocha": "^10.0.3",
     "eslint": "^8.53.0",
     "mocha": "^10.2.0",
     "nodemon": "^3.0.1",
