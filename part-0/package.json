@@ -1,11 +1,12 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.ts",
-    "test": "mocha index.test.ts",
+    "dev": "nodemon build/index.js",
+    "test": "mocha build/index.test.js",
     "lint": "eslint .",
     "format": "prettier --check .",
-    "types": "tsc --noEmit"
+    "types": "tsc --noEmit",
+    "build": "tsc"
   },
   "dependencies": {
     "@types/mocha": "^10.0.3",
