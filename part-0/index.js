@@ -1,3 +1,5 @@
 import Lib from './lib.js';
 
-Lib.log("Hello, World!");
+const logger = Lib.createLogger(console.log);
+
+logger("Hello, World!");

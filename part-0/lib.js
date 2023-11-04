@@ -1,3 +1,7 @@
 export default {
-  log: (...args) => console.log(...args),
+  createLogger: fn => {
+    return (...args) => { 
+      fn(...args);
+    }
+  }
 }
