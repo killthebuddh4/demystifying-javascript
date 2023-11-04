@@ -1,16 +1,18 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "nodemon build/index.js",
+    "dev": "concurrently \"npm run build:watch\" \"nodemon build/index.js\"",
     "test": "mocha build/index.test.js",
     "lint": "eslint .",
     "format": "prettier --check .",
     "types": "tsc --noEmit",
-    "build": "tsc"
+    "build": "tsc",
+    "build:watch": "tsc --watch"
   },
   "dependencies": {
     "@types/mocha": "^10.0.3",
     "@types/node": "^20.8.10",
+    "concurrently": "^8.2.2",
     "eslint": "^8.53.0",
     "mocha": "^10.2.0",
     "nodemon": "^3.0.1",
