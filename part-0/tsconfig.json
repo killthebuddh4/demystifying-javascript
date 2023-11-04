@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "skipLibCheck": true,
+    "module": "nodenext",
+    "resolveJsonModule": true,
+    "lib": ["ESNext"]
+  },
+  "include": ["**/*.ts"]
+}
