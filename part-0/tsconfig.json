@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
-    "allowJs": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true,
+    "resolveJsonModule": true
   },
-  "include": ["**/*.js"]
+  "include": ["**/*.ts"]
 }
