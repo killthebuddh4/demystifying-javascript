@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
-    "test": " mocha index.test.js"
+    "test": "mocha index.test.js"
   },
   "dependencies": {
     "eslint": "^8.53.0",

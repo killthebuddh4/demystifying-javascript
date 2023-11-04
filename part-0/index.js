@@ -1,4 +1,4 @@
-import Lib from './lib.js';
+import Lib from "./lib.js";
 
 const logger = Lib.createLogger(console.log);
 

@@ -1,7 +1,7 @@
 export default {
-  createLogger: fn => {
-    return (...args) => { 
+  createLogger: (fn) => {
+    return (...args) => {
       fn(...args);
-    }
-  }
-}
+    };
+  },
+};

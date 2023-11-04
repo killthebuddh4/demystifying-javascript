@@ -1,4 +1,4 @@
-import globals from 'globals';
+import globals from "globals";
 import js from "@eslint/js";
 
 export default [
@@ -10,7 +10,7 @@ export default [
     },
   },
   {
-    files: [ "**/*.test.js" ],
+    files: ["**/*.test.js"],
     languageOptions: {
       globals: {
         ...globals.mocha,
@@ -19,4 +19,3 @@ export default [
   },
   js.configs.recommended,
 ];
-
