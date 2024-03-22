@@ -18,6 +18,7 @@ _In the long run I plan to include in this index references to other projects th
 
 - [the node fetch API](./2024-03-21-node-fetch-api/)
 - [mocha, describe, and it](./2024-03-21-mocha-describe-and-it/)
+- [strict mode and zod objects](./2024-03-22-strict-mode-with-zod-objects/)
 
 
 
