@@ -1,3 +1,7 @@
+```sh
+git diff 46f6d1afe6e46fa8a96e602d140a7d840baa3212 4a0380d532b9bf8329a3a99a23b419af24ab412d
+```
+
 # The Point
 
 If you try to run `test.js` using any version of Node, it will fail with an error like this:
@@ -31,5 +35,3 @@ It works because the `mocha` script injects those names, among a bunch of others
 ```sh
 node -r ./mocha.js test.js
 ```
-
-e35e3985aadec822801a3a1f5a14c7a18c5933e8
