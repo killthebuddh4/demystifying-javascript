@@ -1,0 +1,1 @@
+Illustrate how `describe` and `it` are automagically injected by `mocha`.

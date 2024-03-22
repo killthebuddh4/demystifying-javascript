@@ -14,7 +14,10 @@ _Side thought: it's kind of like [codepen](https://codepen.io) but for the under
 
 _In the long run I plan to include in this index references to other projects that follow the same kind of `concept -> broken commit -> fixed commit -> README` format._
 
-- [the node fetch API](./2024-03-31-node-fetch-api/)
+#### Examples
+
+- [the node fetch API](./2024-03-21-node-fetch-api/)
+- [mocha, describe, and it](./2024-03-21-mocha-describe-and-it/)
 
 
 
